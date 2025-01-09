@@ -13,6 +13,7 @@ release = '1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
+html_baseurl = "https://danloi2.github.io/MITE/"
 
 
 extensions = ["myst_parser", "sphinx_design", "sphinx.ext.githubpages"]
