@@ -1,5 +1,5 @@
 source: source
-destination: build/html
+destination: _build/html
 exclude: ['assets/css/style.scss']
 
 repository:
