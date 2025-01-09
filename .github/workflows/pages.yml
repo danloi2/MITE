@@ -24,5 +24,12 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Build HTML
-      run: make html -C ./
+      - name: Build HTML
+        run: make html -C docs
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+        with:
+          path: .build/html
+
+
