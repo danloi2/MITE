@@ -24,7 +24,7 @@ Tu proyecto de investigación se construirá sobre cinco pilares fundamentales:
 
 ## Itinerario de Aprendizaje 🛣️
 
-Durante el curso desarrollarás ocho actividades clave:
+Durante el curso desarrollarás 8 actividades clave:
 
 ```{list-table}
 :header-rows: 1
