@@ -1,4 +1,4 @@
-# ¡Bienvenidos a Metodología de Investigación en Tecnología Educativa! 🎓
+# ¡BBienvenidos a Metodología de Investigación en Tecnología Educativa! 🎓
 
 ```{admonition} Información Básica
 :class: note
