@@ -1,4 +1,4 @@
-# ¡BBienvenidos a Metodología de Investigación en Tecnología Educativa! 🎓
+# ¡Bienvenidos a Metodología de Investigación en Tecnología Educativa! 🎓
 
 ```{admonition} Información Básica
 :class: note
@@ -14,7 +14,7 @@ Esta asignatura tiene un objetivo muy concreto: diseñar el **Proyecto del Traba
 
 ## Estructura del Proyecto de Investigación 📚
 
-Tu proyecto de investigación se construirá sobre cinco pilares fundamentales:
+Tu proyecto de investigación se construirá sobre 5 pilares fundamentales:
 
 1. Formulación de preguntas, problema de investigación y objetivos
 2. Delimitación del marco teórico
@@ -56,7 +56,7 @@ Todas las actividades se entregan en los foros del campus virtual, excepto el Pr
 
 ## Lecturas Fundamentales 📖
 
-Para desarrollar tu proyecto, trabajaremos con lecturas organizadas en ocho bloques temáticos:
+Para desarrollar tu proyecto, trabajaremos con lecturas organizadas en 8 bloques temáticos:
 
 1. Estructura Básica del Proyecto
 2. Selección del Tema

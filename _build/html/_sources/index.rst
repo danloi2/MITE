@@ -13,3 +13,4 @@ Guía de Alumnado MITE 2025 documentation
 
    docs/00ind
    docs/01deftfm
+   docs/02tareas
