@@ -24,7 +24,7 @@ jobs:
       
       - name: Build the documentation
         run: |
-          make html -C docs  # Asegúrate de que `docs` sea tu directorio fuente
+          make html -C .  # Asegúrate de que `docs` sea tu directorio fuente
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
