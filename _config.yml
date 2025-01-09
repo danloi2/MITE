@@ -1,0 +1,8 @@
+source: source
+destination: build/html
+exclude: ['assets/css/style.scss']
+
+repository:
+  url: https://github.com/Jero2760/jupyter-book-ejemplo
+  branch: master
+  path_to_book: "docs"
