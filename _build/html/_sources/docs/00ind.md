@@ -1,4 +1,4 @@
-# ¡Bienvenidos a Metodología de Investigación en Tecnología Educativa! 🎓
+# ¡BBienvenidos a Metodología de Investigación en Tecnología Educativa! 🎓
 
 ```{admonition} Información Básica
 :class: note
@@ -24,7 +24,7 @@ Tu proyecto de investigación se construirá sobre cinco pilares fundamentales:
 
 ## Itinerario de Aprendizaje 🛣️
 
-Durante el curso desarrollarás ocho actividades clave:
+Durante el curso desarrollarás 8 actividades clave:
 
 ```{list-table}
 :header-rows: 1
