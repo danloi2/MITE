@@ -1,8 +1,0 @@
-.logo {
-    width: 150px; /* Ajusta el tamaño del logo */
-    height: auto; /* Mantén  la proporción */ 
-    margin: 0 auto; /* Centra el logo */
-    display: block; /* Asegura el centrado */
-    padding: 10px; /* Espaciado alrededor del logo */
-    border-radius: 50%; /* Hace el logo circular (opcional) */
-}
