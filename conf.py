@@ -16,7 +16,7 @@ release = '1'
 html_baseurl = "https://danloi2.github.io/MITE/"
 
 
-extensions = ["myst_parser", "sphinx_design", "sphinx.ext.githubpages", "sphinxemoji.sphinxemoji"]
+extensions = ["myst_parser", "sphinx_design", "sphinx.ext.githubpages"]
 myst_enable_extensions = ["colon_fence"]
 
 templates_path = ['_templates']
