@@ -1,0 +1,545 @@
+
+<!DOCTYPE html>
+
+
+<html lang="es" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Trabajo Fin de Máster (TFM) &#8212; documentación de MITE 2025 - 1</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="../_static/documentation_options.js?v=34c5d1bd"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script src="../_static/translations.js?v=f85f4cfb"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'docs/01deftfm';</script>
+    <link rel="canonical" href="https://danloi2.github.io/MITE/docs/01deftfm.html" />
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="next" title="Tareas" href="02tareas.html" />
+    <link rel="prev" title="¡Bienvenidos a Metodología de Investigación en Tecnología Educativa! |:man_technologist:|" href="00ind.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="es"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Saltar al contenido principal</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Volver arriba</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Advertencia de versión"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="documentación de MITE 2025 - 1 - Home"/>
+    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt="documentación de MITE 2025 - 1 - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Búsqueda" aria-label="Búsqueda" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Búsqueda</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Antes de empezar:</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="00ind.html">¡Bienvenidos a Metodología de Investigación en Tecnología Educativa! |:man_technologist:|</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Conceptos básicos:</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Trabajo Fin de Máster (TFM)</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Tareas:</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="02tareas.html">Tareas</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Descarga esta pagina">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/docs/01deftfm.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Descargar archivo fuente"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Imprimir en PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Modo de pantalla completa"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Tema" data-bs-title="Tema"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Claro"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Oscuro"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="Sistema"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Búsqueda" aria-label="Búsqueda" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Trabajo Fin de Máster (TFM)</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contenido </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#definicion">Definición</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#que-es-un-tfm">¿Qué es un TFM?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#que-no-es-un-tfm">¿Qué no es un TFM?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#caracteristicas-de-un-tfm">Características de un TFM</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#que-debe-ser-un-tfm">¿Qué debe ser un TFM?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#que-no-debe-ser-un-tfm">¿Qué no debe ser un TFM?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lineas-de-trabajo-en-el-tfm-del-master-en-educacion">Líneas de Trabajo en el TFM del Máster en Educación</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#estructura-comun-de-un-tfm">Estructura Común de un TFM</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#temas-de-investigacion-para-el-tfm">Temas de Investigación para el TFM</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tipologias-de-investigacion">Tipologías de Investigación</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#investigacion-empirica-vs-teorica">Investigación Empírica vs. Teórica</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="trabajo-fin-de-master-tfm">
+<h1>Trabajo Fin de Máster (TFM)<a class="headerlink" href="#trabajo-fin-de-master-tfm" title="Link to this heading">#</a></h1>
+<section id="definicion">
+<h2>Definición<a class="headerlink" href="#definicion" title="Link to this heading">#</a></h2>
+<section id="que-es-un-tfm">
+<h3>¿Qué es un TFM?<a class="headerlink" href="#que-es-un-tfm" title="Link to this heading">#</a></h3>
+<p>Un <strong>Trabajo Fin de Máster (TFM)</strong> es un proyecto individual, memoria o estudio de investigación original, que reúne y desarrolla los conocimientos, competencias, habilidades y capacidades adquiridas durante los estudios de máster. Su objetivo es demostrar la capacidad del estudiante para realizar una investigación rigurosa, reflexiva y autónoma en el ámbito académico de la especialidad elegida.</p>
+</section>
+<section id="que-no-es-un-tfm">
+<h3>¿Qué no es un TFM?<a class="headerlink" href="#que-no-es-un-tfm" title="Link to this heading">#</a></h3>
+<p>Un <strong>TFM</strong> <strong>NO es</strong>:</p>
+<ul class="simple">
+<li><p>Un trabajo sin definición clara de problema, objetivos o hipótesis de investigación.</p></li>
+<li><p>Un trabajo sin análisis, sin base teórica, sin datos o sin coherencia lógica.</p></li>
+<li><p>Un proyecto sin bibliografía o sin relación con la realidad.</p></li>
+<li><p>Una recopilación de materiales sin un enfoque investigador claro.</p></li>
+</ul>
+</section>
+</section>
+<section id="caracteristicas-de-un-tfm">
+<h2>Características de un TFM<a class="headerlink" href="#caracteristicas-de-un-tfm" title="Link to this heading">#</a></h2>
+<section id="que-debe-ser-un-tfm">
+<h3>¿Qué debe ser un TFM?<a class="headerlink" href="#que-debe-ser-un-tfm" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Un trabajo de <strong>investigación avanzada</strong>, con un problema claramente definido, un marco teórico sólido y un análisis detallado de los datos o información recogida.</p></li>
+<li><p>Un proyecto <strong>coherente y sistemático</strong>, basado en una revisión bibliográfica actualizada y en metodologías válidas y apropiadas.</p></li>
+<li><p>Un trabajo <strong>académico</strong> y <strong>original</strong>, con objetivos y resultados relevantes dentro del ámbito del máster.</p></li>
+</ul>
+</section>
+<section id="que-no-debe-ser-un-tfm">
+<h3>¿Qué no debe ser un TFM?<a class="headerlink" href="#que-no-debe-ser-un-tfm" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Un trabajo <strong>sin objetivos ni preguntas de investigación definidos</strong>.</p></li>
+<li><p>Un proyecto <strong>copiado</strong> o sin contenido propio.</p></li>
+<li><p>Un trabajo <strong>sin base teórica sólida</strong> o sin justificación adecuada de los procedimientos utilizados.</p></li>
+<li><p>Un trabajo <strong>sin datos válidos</strong> o que no se ajuste a la realidad del campo de estudio.</p></li>
+</ul>
+</section>
+</section>
+<section id="lineas-de-trabajo-en-el-tfm-del-master-en-educacion">
+<h2>Líneas de Trabajo en el TFM del Máster en Educación<a class="headerlink" href="#lineas-de-trabajo-en-el-tfm-del-master-en-educacion" title="Link to this heading">#</a></h2>
+<p>En un <strong>Máster en Educación</strong>, algunas de las líneas de investigación más comunes para el <strong>TFM</strong> son:</p>
+<ul class="simple">
+<li><p><strong>Innovación educativa</strong>: Estudio sobre nuevas metodologías y tecnologías aplicadas a la enseñanza.</p></li>
+<li><p><strong>Gestión educativa</strong>: Investigación sobre procesos de gestión en instituciones educativas y su impacto en la calidad educativa.</p></li>
+<li><p><strong>Evaluación educativa</strong>: Investigación sobre estrategias, herramientas y métodos para evaluar el aprendizaje y el rendimiento académico.</p></li>
+<li><p><strong>Educación inclusiva</strong>: Estudio de cómo adaptar los métodos de enseñanza para atender a la diversidad de los estudiantes.</p></li>
+<li><p><strong>Tecnologías educativas</strong>: Investigación sobre el uso de las TIC en el ámbito educativo y su efectividad.</p></li>
+</ul>
+</section>
+<section id="estructura-comun-de-un-tfm">
+<h2>Estructura Común de un TFM<a class="headerlink" href="#estructura-comun-de-un-tfm" title="Link to this heading">#</a></h2>
+<p>La estructura típica de un <strong>TFM</strong> incluye los siguientes apartados:</p>
+<ol class="arabic simple">
+<li><p><strong>PORTADA</strong></p></li>
+<li><p><strong>RESUMEN</strong></p></li>
+<li><p><strong>AGRADECIMIENTOS</strong></p></li>
+<li><p><strong>ÍNDICE</strong></p></li>
+<li><p><strong>INTRODUCCIÓN</strong></p></li>
+<li><p><strong>MARCO TEÓRICO</strong></p></li>
+<li><p><strong>METODOLOGÍA</strong></p></li>
+<li><p><strong>RESULTADOS</strong></p></li>
+<li><p><strong>DISCUSIÓN Y CONCLUSIONES</strong></p></li>
+<li><p><strong>REFERENCIAS BIBLIOGRÁFICAS</strong></p></li>
+<li><p><strong>ANEXOS</strong></p></li>
+</ol>
+</section>
+<section id="temas-de-investigacion-para-el-tfm">
+<h2>Temas de Investigación para el TFM<a class="headerlink" href="#temas-de-investigacion-para-el-tfm" title="Link to this heading">#</a></h2>
+<p>Independientemente de las particularidades de cada tema y cada trabajo, los contenidos del trabajo de investigación deben enmarcarse dentro de la investigación en el ámbito de las <strong>Ciencias de la Educación</strong>, específicamente:</p>
+<ol class="arabic simple">
+<li><p><strong>Formulación de preguntas de investigación y objetivos</strong></p></li>
+<li><p><strong>Delimitación de un marco teórico o corpus conceptual</strong></p></li>
+<li><p><strong>Definición y aplicación de una metodología</strong></p></li>
+<li><p><strong>Análisis de los datos o de los elementos objeto de estudio a la luz de las preguntas, objetivos y marco teórico</strong></p></li>
+<li><p><strong>Obtención de resultados relevantes o conclusiones</strong></p></li>
+</ol>
+<p>Los tipos de investigación pueden incluir:</p>
+<section id="tipologias-de-investigacion">
+<h3>Tipologías de Investigación<a class="headerlink" href="#tipologias-de-investigacion" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><strong>Investigación de análisis del funcionamiento de diferentes ámbitos de los sistemas educativos y las tecnologías digitales (TD)</strong>: Estudios sobre el impacto de las tecnologías digitales en la educación, o investigaciones comparativas sobre modelos educativos apoyados en las TD.</p></li>
+<li><p><strong>Revisión Sistemática de la Literatura (RSL)</strong>: Revisión bibliográfica sobre temáticas específicas de investigación en Tecnología Educativa o sobre determinadas fuentes especializadas en esta área.</p></li>
+<li><p><strong>Investigación aplicada</strong>: Estudio de caso sobre la integración de las tecnologías digitales en la actividad educativa formal, no formal o informal.</p></li>
+</ul>
+<p>El <strong>TFM</strong> debe basarse en una investigación empírica o en fuentes documentales. El trabajo puede ser puramente teórico, aunque se recomienda que sea empírico, utilizando datos o informaciones obtenidas de la realidad, ya sea en forma de fuentes documentales (textos, imágenes, páginas web) o a través de la recolección de datos mediante cuestionarios, entrevistas, observación participante, etc.</p>
+</section>
+<section id="investigacion-empirica-vs-teorica">
+<h3>Investigación Empírica vs. Teórica<a class="headerlink" href="#investigacion-empirica-vs-teorica" title="Link to this heading">#</a></h3>
+<p>Aunque la investigación empírica es más coherente con un enfoque práctico y realista, es posible que, en algunos casos, y con la aprobación del director/a, el trabajo sea de carácter teórico. En este caso, el trabajo debe estar basado en una exploración profunda de las fuentes teóricas relevantes, con una comparación crítica de las mismas, y la elaboración de un discurso personal respaldado por ejemplos ilustrativos.</p>
+</section>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="00ind.html"
+       title="página anterior">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">anterior</p>
+        <p class="prev-next-title">¡Bienvenidos a Metodología de Investigación en Tecnología Educativa! |:man_technologist:|</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="02tareas.html"
+       title="siguiente página">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">siguiente</p>
+        <p class="prev-next-title">Tareas</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contenido
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#definicion">Definición</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#que-es-un-tfm">¿Qué es un TFM?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#que-no-es-un-tfm">¿Qué no es un TFM?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#caracteristicas-de-un-tfm">Características de un TFM</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#que-debe-ser-un-tfm">¿Qué debe ser un TFM?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#que-no-debe-ser-un-tfm">¿Qué no debe ser un TFM?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lineas-de-trabajo-en-el-tfm-del-master-en-educacion">Líneas de Trabajo en el TFM del Máster en Educación</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#estructura-comun-de-un-tfm">Estructura Común de un TFM</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#temas-de-investigacion-para-el-tfm">Temas de Investigación para el TFM</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tipologias-de-investigacion">Tipologías de Investigación</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#investigacion-empirica-vs-teorica">Investigación Empírica vs. Teórica</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+Por Daniel Losada
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2025, Daniel Losada.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
