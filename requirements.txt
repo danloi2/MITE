@@ -4,5 +4,4 @@ sphinx-design
 sphinx_rtd_theme
 sphinx-book-theme
 sphinxemoji
-sphinx.ext.githubpages
 colon-fence
