@@ -1,4 +1,4 @@
-# ¡Bienvenidos a Metodología de Investigación en Tecnología Educativa! |:man_technologist:| 
+# ¡Bienvenidos a Metodología de Investigación en Tecnología Educativa!
 
 ```{admonition} Información Básica
 :class: note
