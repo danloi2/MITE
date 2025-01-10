@@ -28,7 +28,7 @@ jobs:
 
       # Construir la documentación
       - name: Build HTML
-        run: make html
+        run: sphinx-build -b html -c . . _build/html
 
       # Subir los artefactos generados
       - name: Upload artifacts
