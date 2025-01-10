@@ -14,7 +14,7 @@ release = '1'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 html_baseurl = "https://danloi2.github.io/MITE/"
-
+master_doc = 'index'  # Especifica index.rst como documento principa
 
 extensions = ["myst_parser", "sphinx_design", "sphinx.ext.githubpages"]
 myst_enable_extensions = ["colon_fence"]
