@@ -8,8 +8,6 @@
 - **Elemento clave**: Proyecto de TFM
 ```
 
-{bdg-primary}`primary`, {bdg-primary-line}`primary-line`
-
 ## Finalidad de la Asignatura 🎯
 
 Esta asignatura tiene un objetivo muy concreto: diseñar el **Proyecto del Trabajo de Fin de Máster** en el ámbito de la Tecnología Educativa. Durante las próximas tres semanas, nos centraremos en desarrollar el **Marco Conceptual** de tu investigación, que es el núcleo fundamental de cualquier estudio científico.
