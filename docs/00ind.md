@@ -11,9 +11,12 @@
 ## Finalidad de la Asignatura 🎯
 
 $$
-(a + b)^2  &=  (a + b)(a + b) \\
-           &=  a^2 + 2ab + b^2
+\beta = \frac{1}{2}
 $$
+
+$\alpha$
+
+
 
 
 Esta asignatura tiene un objetivo muy concreto: diseñar el **Proyecto del Trabajo de Fin de Máster** en el ámbito de la Tecnología Educativa. Durante las próximas tres semanas, nos centraremos en desarrollar el **Marco Conceptual** de tu investigación, que es el núcleo fundamental de cualquier estudio científico.
