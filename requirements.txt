@@ -1,6 +1,5 @@
 sphinx
 sphinx-design
-sphinx_rtd_theme
 sphinx-book-theme
 myst-parser
 nbsphinx
