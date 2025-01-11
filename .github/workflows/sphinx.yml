@@ -1,6 +1,8 @@
-name: "Sphinx: Render docs"
-
-on: push
+ame: "Sphinx: Render docs"
+on: 
+  push:
+    branches:
+      - main
 
 jobs:
   build:
@@ -8,35 +10,40 @@ jobs:
     permissions:
       contents: write
     steps:
-      # Clonar el repositorio
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
 
-      # Configurar Python y dependencias
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
-
+          
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install sphinx sphinx-rtd-theme myst-parser sphinx_design sphinxemoji sphinx_book_theme
-
-      # Construir la documentación
+          pip install -r requirements.txt
+          
+      - name: Debug info
+        run: |
+          pwd
+          ls -la
+          python -c "import sphinx; print(sphinx.__version__)"
+          
       - name: Build HTML
         run: |
-          sphinx-build -b html -c . . _build/html
-
-      # Subir los artefactos generados
+          sphinx-build -b html . _build/html -v
+          
+      - name: List generated files
+        run: |
+          ls -la _build/html
+          
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
           name: html-docs
           path: _build/html
-
-      # Desplegar en GitHub Pages
+          
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
