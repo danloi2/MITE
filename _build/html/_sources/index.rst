@@ -6,13 +6,7 @@
 Guía de Alumnado MITE 2025
 ========================================
 
-Mi nombre es `Daniel Losada <https://ekoizpen-zientifikoa.ehu.eus/investigadores/130988/detalle?lang=es>`_ y soy Profesor Titular de Universidad en la Universidad del País Vasco / Euskal Herriko Unibertistatea.
-
-.. myst::
-
-{bdg-primary}`primary`, {bdg-primary-line}`primary-line`
-
-..
+Mi nombre es :bdg-link-primary:`Daniel Losada <https://ekoizpen-zientifikoa.ehu.eus/investigadores/130988/detalle?lang=es>` soy Profesor Titular de Universidad en la Universidad del País Vasco / Euskal Herriko Unibertistatea.
 
 La documentación oficial:
 
