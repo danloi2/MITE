@@ -17,7 +17,7 @@ html_baseurl = "https://danloi2.github.io/MITE/"
 master_doc = 'index'  # Especifica index.rst como documento principa
 
 extensions = ["myst_parser", "sphinx_design", "sphinx.ext.githubpages"]
-myst_enable_extensions = ["colon_fence"]
+myst_enable_extensions = ["colon_fence", "deflist"]
 
 templates_path = ['_templates']
 exclude_patterns = []
