@@ -8,7 +8,7 @@
 - **Elemento clave**: Proyecto de TFM
 ```
 
-`Daniel Losada <https://ekoizpen-zientifikoa.ehu.eus/investigadores/130988/detalle?lang=es>`
+{bdg-primary}`primary`, {bdg-primary-line}`primary-line`
 
 ## Finalidad de la Asignatura 🎯
 
