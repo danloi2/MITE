@@ -1,52 +1,43 @@
-name: "Sphinx: Render docs"
-on: 
+name: Build Sphinx Documentation
+on:
   push:
     branches:
       - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-        with:
-          persist-credentials: false
+      - name: Checkout code
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
-          
+          python-version: '3.9'
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          
-      - name: Debug info
-        run: |
-          pwd
-          ls -la
-          python -c "import sphinx; print(sphinx.__version__)"
-          
+
       - name: Build HTML
-        run: |
-          sphinx-build -b html . _build/html -v
-          
-      - name: List generated files
-        run: |
-          ls -la _build/html
-          
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+        run: make html
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: html-docs
           path: _build/html
-          
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: _build/html
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
