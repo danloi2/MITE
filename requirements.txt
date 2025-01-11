@@ -3,5 +3,6 @@ sphinx-design
 sphinx-book-theme
 myst-parser
 nbsphinx
+linkify-it-py
 
 
