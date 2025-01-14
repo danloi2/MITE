@@ -1,10 +1,12 @@
 # ¿Qué es un Trabajo Fin de Máster (TFM)?
 
-## Definición
+## Definición del TFM
 
-### ¿Qué es un TFM
+### ¿Qué es un TFM?
 
 Un **Trabajo Fin de Máster (TFM)** es un proyecto individual, memoria o estudio de investigación original, que reúne y desarrolla los conocimientos, competencias, habilidades y capacidades adquiridas durante los estudios de máster. Su objetivo es demostrar la capacidad del estudiante para realizar una investigación rigurosa, reflexiva y autónoma en el ámbito académico de la especialidad elegida.
+
+El **TFM** debe basarse en una investigación empírica o en fuentes documentales. El trabajo puede ser puramente teórico, aunque se recomienda que sea empírico, utilizando datos o informaciones obtenidas de la realidad, ya sea en forma de fuentes documentales (textos, imágenes, páginas web) o a través de la recolección de datos mediante cuestionarios, entrevistas, observación participante, etc.
 
 ### ¿Qué no es un TFM?
 
@@ -30,17 +32,19 @@ Un **TFM** **NO es**:
 - Un trabajo **sin base teórica sólida** o sin justificación adecuada de los procedimientos utilizados.
 - Un trabajo **sin datos válidos** o que no se ajuste a la realidad del campo de estudio.
 
-## Líneas de Trabajo en el TFM del Máster en Educación
+## Estructura del TFM
 
-En un **Máster en Educación**, algunas de las líneas de investigación más comunes para el **TFM** son:
+### ¿Qué acciones son fundamentales para la realización de un TFM?
 
-- **Innovación educativa**: Estudio sobre nuevas metodologías y tecnologías aplicadas a la enseñanza.
-- **Gestión educativa**: Investigación sobre procesos de gestión en instituciones educativas y su impacto en la calidad educativa.
-- **Evaluación educativa**: Investigación sobre estrategias, herramientas y métodos para evaluar el aprendizaje y el rendimiento académico.
-- **Educación inclusiva**: Estudio de cómo adaptar los métodos de enseñanza para atender a la diversidad de los estudiantes.
-- **Tecnologías educativas**: Investigación sobre el uso de las TIC en el ámbito educativo y su efectividad.
+En Ciencias de Educación, los **TFM** deben llevarse a cabo 5 acciones:
 
-## Estructura Común de un TFM
+1. **Formulación de preguntas de investigación y objetivos**
+2. **Delimitación de un marco teórico o corpus conceptual**
+3. **Definición y aplicación de una metodología**
+4. **Análisis de los datos o de los elementos objeto de estudio a la luz de las preguntas, objetivos y marco teórico**
+5. **Obtención de resultados relevantes o conclusiones**
+
+### ¿Cúales son los apartados fundamentales de un TFM?
 
 La estructura típica de un **TFM** incluye los siguientes apartados:
 
@@ -56,41 +60,48 @@ La estructura típica de un **TFM** incluye los siguientes apartados:
 10. **REFERENCIAS BIBLIOGRÁFICAS**
 11. **ANEXOS**
 
-## Temas de Investigación para el TFM
+## Temáticas para el TFM
 
-Independientemente de las particularidades de cada tema y cada trabajo, los contenidos del trabajo de investigación deben enmarcarse dentro de la investigación en el ámbito de las **Ciencias de la Educación**, específicamente:
-
-1. **Formulación de preguntas de investigación y objetivos**
-2. **Delimitación de un marco teórico o corpus conceptual**
-3. **Definición y aplicación de una metodología**
-4. **Análisis de los datos o de los elementos objeto de estudio a la luz de las preguntas, objetivos y marco teórico**
-5. **Obtención de resultados relevantes o conclusiones**
+### ¿Sobre qué se investiga en Educación Digital?
 
 
-Tu proyecto de investigación se construirá sobre 5 pilares fundamentales:
+## Metodologías del TFM
 
-```admonition:: Elementos nucleares del proyecto TFM
-   :class: note
+### ¿Qué tipo de enfoques hay en la investigación?
 
-   1. Formulación de preguntas, problema de investigación y objetivos
-   2. Delimitación del marco teórico
-   3. Definición y aplicación de la metodología
-   4. Recogida y análisis de datos
-   5. Obtención de resultados y conclusiones
-````
+:::{figure-md}
+![Meto](../_static/img/meto2.png){width=400px}
 
-Los tipos de investigación pueden incluir:
+Elección
+:::
 
-### Tipologías de Investigación
+::::{tab-set}
+
+:::{tab-item} Investigación Cuantitativa
+* No expermiental
+* Pre-experimental
+* Cuasi-experimental
+* Experimental
+:::
+
+:::{tab-item} Investigación Cualitativa
+* Estudio de Caso
+* Investigación Narrativa
+* Investigación Etnográfica
+* Fenomenológica
+* Grounded-Theory
+* Investigación-Acción
+* Investigación Basada en Diseño
+:::
+
+:::{tab-item} Investigación Mixta
+* Investigación Cuantitativa + Investigación Cualitativa
+::::
+
+### ¿Cuáles son las metodologías que recomienda el Máster en Educación Digital?
 
 - **Investigación de análisis del funcionamiento de diferentes ámbitos de los sistemas educativos y las tecnologías digitales (TD)**: Estudios sobre el impacto de las tecnologías digitales en la educación, o investigaciones comparativas sobre modelos educativos apoyados en las TD.
   
 - **Revisión Sistemática de la Literatura (RSL)**: Revisión bibliográfica sobre temáticas específicas de investigación en Tecnología Educativa o sobre determinadas fuentes especializadas en esta área.
 
 - **Investigación aplicada**: Estudio de caso sobre la integración de las tecnologías digitales en la actividad educativa formal, no formal o informal.
-
-El **TFM** debe basarse en una investigación empírica o en fuentes documentales. El trabajo puede ser puramente teórico, aunque se recomienda que sea empírico, utilizando datos o informaciones obtenidas de la realidad, ya sea en forma de fuentes documentales (textos, imágenes, páginas web) o a través de la recolección de datos mediante cuestionarios, entrevistas, observación participante, etc.
-
-### Investigación Empírica vs. Teórica
-
-Aunque la investigación empírica es más coherente con un enfoque práctico y realista, es posible que, en algunos casos, y con la aprobación del director/a, el trabajo sea de carácter teórico. En este caso, el trabajo debe estar basado en una exploración profunda de las fuentes teóricas relevantes, con una comparación crítica de las mismas, y la elaboración de un discurso personal respaldado por ejemplos ilustrativos.
