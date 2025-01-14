@@ -99,12 +99,12 @@ Prepárate para transformar la educación y marcar la diferencia.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Conceptos básicos:
+   :caption: Primeros Pasos
 
    docs/01deftfm
 
 .. toctree::
    :maxdepth: 2
-   :caption: Tareas:
+   :caption: Tareas de Desarrollo
 
    docs/02tareas
