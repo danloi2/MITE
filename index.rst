@@ -10,15 +10,25 @@ TFM en Acción: Diseña tu Proyecto en Tecnología Educativa
 
 Mi nombre es :bdg-link-dark:`Daniel Losada <https://ekoizpen-zientifikoa.ehu.eus/investigadores/130988/detalle?lang=es>` soy Profesor Titular de la :bdg-link-dark-line:`Universidad en la Universidad del País Vasco <https://www.ehu.eus/es>`.
 
-Finalidad de la Asignatura  🎯
+¿Qué transformación busca esta asignatura sobre ti?  🎯
 -----------------------------
+
+A lo largo de esta asignatura, te enbarcarás en un viaje de descubrimiento. 
+
+   ¿Qué transformación buscas experimentar al diseñar tu propio Proyecto del Trabajo Fin de Máster en Tecnología Educativa?
 
 Este asignatura busca responder a la siguiente PREGUNTA CLAVE: 
 
-   ¿Cómo se diseña un :bdg-link-primary:`Proyecto del Trabajo Fin de Máster` en el ámbito de la :bdg-link-primary-line:`Tecnología Educativa`?
+   ¿Cómo se diseña un :bdg-link-primary:`Estudio Científico` en el ámbito de la :bdg-link-primary-line:`Tecnología Educativa`?
 
 Explicación breve del Proyecto  📚
 -----------------------------
+
+A lo largo de estas **próximas tres semanas**, te invitamos a embarcarte en un viaje de descubrimiento y experimentación en el diseño de tu propio :bdg-link-primary:`Proyecto del Trabajo Fin de Máster` en :bdg-link-primary-line:`Tecnología Educativa`. Esta asignatura te equipará con las herramientas y conocimientos necesarios para responder a la pregunta clave: 
+
+   ¿Cómo se diseña un :bdg-link-primary:Proyecto del Trabajo Fin de Máster en el ámbito de la :bdg-link-primary-line:Tecnología Educativa? A través de proyectos prácticos, debates y reflexiones, explorarás las últimas tendencias en tecnología educativa, desarrollarás habilidades de diseño instruccional y aprenderás a evaluar el impacto de tus creaciones en el aprendizaje de los estudiantes. 
+   
+   Prepárate para transformar la educación y marcar la diferencia."
 
 Durante las **próximas tres semanas**, nos centraremos en desarrollar el :bdg-link-success:`Marco Conceptual` de tu investigación, que es el núcleo fundamental de cualquier **estudio científico**.
 

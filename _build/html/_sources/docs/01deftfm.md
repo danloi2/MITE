@@ -66,6 +66,19 @@ Independientemente de las particularidades de cada tema y cada trabajo, los cont
 4. **Análisis de los datos o de los elementos objeto de estudio a la luz de las preguntas, objetivos y marco teórico**
 5. **Obtención de resultados relevantes o conclusiones**
 
+
+Tu proyecto de investigación se construirá sobre 5 pilares fundamentales:
+
+```admonition:: Elementos nucleares del proyecto TFM
+   :class: note
+
+   1. Formulación de preguntas, problema de investigación y objetivos
+   2. Delimitación del marco teórico
+   3. Definición y aplicación de la metodología
+   4. Recogida y análisis de datos
+   5. Obtención de resultados y conclusiones
+````
+
 Los tipos de investigación pueden incluir:
 
 ### Tipologías de Investigación
