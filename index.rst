@@ -6,22 +6,6 @@
 TFM en Acción: Diseña tu Proyecto en Tecnología Educativa
 ========================================
 
-.. admonition:: Información Básica
-   :class: note
-
-   - **Titulación**: Máster en Educación Digital
-   - **Tipo**: Obligatoria
-   - **Duración**: 3 semanas
-   - **Elemento clave**: Proyecto de TFM
-        
-La documentación oficial:
-
-* `Descargar Guía del Máster en PDF <_static/recursos/2025_Guia.pdf>`_
-
-* `Descargar Guía de la Asignatura en PDF <_static/recursos/2025_GuiaMITE.pdf>`_
-
-* `Descargar Guía Calendario en PDF <_static/recursos/2025_Calendario.pdf>`_
-
 ¡Bienvenidos a una experiencia de aprendizaje en la que diseñarás *un primer esbozo de calidad* de tu futuro **Trabajo Fin de Máster**!
 
 Mi nombre es :bdg-link-dark:`DANIEL LOSADA <https://ekoizpen-zientifikoa.ehu.eus/investigadores/130988/detalle?lang=es>`, Profesor Titular de la :bdg-link-dark-line:`UPV/EHU <https://www.ehu.eus/es>` y coordinador de esta asigntura. Mis compañeros :bdg-link-dark:`HÉCTOR GALINDO <https://ekoizpen-zientifikoa.ehu.eus/investigadores/128701/detalle>` y :bdg-link-dark:`LUCÍA CAMPO <https://ekoizpen-zientifikoa.ehu.eus/investigadores/460495/detalle>` también forman parte del equipo docente de esta asignatura.
@@ -108,3 +92,16 @@ Prepárate para transformar la educación y marcar la diferencia.
    :caption: Tareas de Desarrollo
 
    docs/02tareas
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Proyecto de TFM
+
+   docs/03final
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Información Adicional
+
+   docs/04guia
+   docs/05cred
