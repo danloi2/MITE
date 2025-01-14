@@ -1,8 +1,8 @@
-# Trabajo Fin de Máster (TFM)
+# ¿Qué es un Trabajo Fin de Máster (TFM)?
 
 ## Definición
 
-### ¿Qué es un TFM?
+### ¿Qué es un TFM
 
 Un **Trabajo Fin de Máster (TFM)** es un proyecto individual, memoria o estudio de investigación original, que reúne y desarrolla los conocimientos, competencias, habilidades y capacidades adquiridas durante los estudios de máster. Su objetivo es demostrar la capacidad del estudiante para realizar una investigación rigurosa, reflexiva y autónoma en el ámbito académico de la especialidad elegida.
 
