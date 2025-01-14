@@ -2,13 +2,7 @@
 
 ## (7) Entregable: Marco Conceptual Visual
 
-:::{admonition} Información Básica
-:class: note
-- **Titulación**: Máster en Educación Digital
-- **Tipo**: Obligatoria
-- **Duración**: 3 semanas
-- **Elemento clave**: Proyecto de TFM
-:::
+
 
 Dibuja una representación visual del marco conceptual de tu investigación mediante un mural colaborativo realizado en PADLET o similar.
 
